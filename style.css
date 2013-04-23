@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'any-old-icon';
+	src:url('fonts/any-old-icon.eot');
+	src:url('fonts/any-old-icon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/any-old-icon.woff') format('woff'),
+		url('fonts/any-old-icon.ttf') format('truetype'),
+		url('fonts/any-old-icon.svg#any-old-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'any-old-icon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+.pavitra-s-tandon-only-goodness, .ian-yates-y-fronts, .pavitra-s-tandon-chat-for-lovers, .muhamad-bahrul-ulum-log-out, .muhamad-bahrul-ulum-log-in, .justin-skull-ribbon, .justin-burns-skull, .justin-burns-skull-badge, .designmodo-settings, .designmodo-location, .designmodo-like, .cole-townsend-pencil, .cole-townsend-check, .cole-townsend-chat, .ian-yates-porridge, .ian-yates-mr-whippy, .ian-yates-milk {
+	font-family: 'any-old-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.pavitra-s-tandon-only-goodness:before {
+	content: "\e000";
+}
+.ian-yates-y-fronts:before {
+	content: "\e001";
+}
+.pavitra-s-tandon-chat-for-lovers:before {
+	content: "\e002";
+}
+.muhamad-bahrul-ulum-log-out:before {
+	content: "\e003";
+}
+.muhamad-bahrul-ulum-log-in:before {
+	content: "\e004";
+}
+.justin-skull-ribbon:before {
+	content: "\e005";
+}
+.justin-burns-skull:before {
+	content: "\e006";
+}
+.justin-burns-skull-badge:before {
+	content: "\e007";
+}
+.designmodo-settings:before {
+	content: "\e008";
+}
+.designmodo-location:before {
+	content: "\e009";
+}
+.designmodo-like:before {
+	content: "\e00a";
+}
+.cole-townsend-pencil:before {
+	content: "\e00b";
+}
+.cole-townsend-check:before {
+	content: "\e00c";
+}
+.cole-townsend-chat:before {
+	content: "\e00d";
+}
+.ian-yates-porridge:before {
+	content: "\e00e";
+}
+.ian-yates-mr-whippy:before {
+	content: "\e00f";
+}
+.ian-yates-milk:before {
+	content: "\e010";
+}
