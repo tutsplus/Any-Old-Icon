@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="your-class-prefix"] {
 */
-.pavitra-s-tandon-only-goodness, .ian-yates-y-fronts, .pavitra-s-tandon-chat-for-lovers, .muhamad-bahrul-ulum-log-out, .muhamad-bahrul-ulum-log-in, .justin-skull-ribbon, .justin-burns-skull, .justin-burns-skull-badge, .designmodo-settings, .designmodo-location, .designmodo-like, .cole-townsend-pencil, .cole-townsend-check, .cole-townsend-chat, .ian-yates-porridge, .ian-yates-mr-whippy, .ian-yates-milk {
+.pavitra-s-tandon-only-goodness, .ian-yates-y-fronts, .pavitra-s-tandon-chat-for-lovers, .muhamad-bahrul-ulum-log-out, .muhamad-bahrul-ulum-log-in, .justin-skull-ribbon, .justin-burns-skull, .justin-burns-skull-badge, .designmodo-settings, .designmodo-location, .designmodo-like, .cole-townsend-pencil, .cole-townsend-check, .cole-townsend-chat, .ian-yates-porridge, .ian-yates-mr-whippy, .ian-yates-milk, .aleks-dorohovich-rocket, .vincent-gschwindemann-sun, .vectortuts-pirate-panda, .sanjit-saha-afro, .samuel-sosina-command-line, .quin-robinson-casual-shoe, .michael-howarth-tardis, .kenneth-bielinski-timer, .juan-ortiz-zaforas-plug-f-female, .juan-ortiz-zaforas-plug-c-female, .juan-gomez-alzaga-rocking-horse, .juan-gomez-alzaga-paint-brush, .juan-gomez-alzaga-leaf, .juan-gomez-alzaga-bird, .jeffrey-herrera-beer-mug, .jack-rugile-anchor, .ilias-ismanalijev-batman, .corinne-ducusin-doumbek, .aleks-dorohovich-triforce {
 	font-family: 'any-old-icon';
 	speak: none;
 	font-style: normal;
@@ -87,4 +87,61 @@ you can use the generic selector below, but it's slower:
 }
 .ian-yates-milk:before {
 	content: "\e010";
+}
+.aleks-dorohovich-rocket:before {
+	content: "\e011";
+}
+.vincent-gschwindemann-sun:before {
+	content: "\e012";
+}
+.vectortuts-pirate-panda:before {
+	content: "\e013";
+}
+.sanjit-saha-afro:before {
+	content: "\e014";
+}
+.samuel-sosina-command-line:before {
+	content: "\e015";
+}
+.quin-robinson-casual-shoe:before {
+	content: "\e016";
+}
+.michael-howarth-tardis:before {
+	content: "\e017";
+}
+.kenneth-bielinski-timer:before {
+	content: "\e018";
+}
+.juan-ortiz-zaforas-plug-f-female:before {
+	content: "\e019";
+}
+.juan-ortiz-zaforas-plug-c-female:before {
+	content: "\e01a";
+}
+.juan-gomez-alzaga-rocking-horse:before {
+	content: "\e01b";
+}
+.juan-gomez-alzaga-paint-brush:before {
+	content: "\e01c";
+}
+.juan-gomez-alzaga-leaf:before {
+	content: "\e01d";
+}
+.juan-gomez-alzaga-bird:before {
+	content: "\e01e";
+}
+.jeffrey-herrera-beer-mug:before {
+	content: "\e01f";
+}
+.jack-rugile-anchor:before {
+	content: "\e020";
+}
+.ilias-ismanalijev-batman:before {
+	content: "\e021";
+}
+.corinne-ducusin-doumbek:before {
+	content: "\e022";
+}
+.aleks-dorohovich-triforce:before {
+	content: "\e023";
 }
