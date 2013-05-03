@@ -1,0 +1,231 @@
+/*bourbon*/
+@import "bourbon";
+
+
+/*imports*/ 
+@import "variables";
+@import "normalize";
+@import "fluid_skeleton";
+@import "mixins";
+@import "typography";
+@import "forms";
+@import "any_old_icon";
+@import "flexslider";
+
+html {
+	font: 62.5%/1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: $colour-bg;
+}
+
+body {
+	@include font-size(1.4);
+	color: $txt-main;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.band {
+	padding: 4em 0;
+}
+
+.band.blanco {
+	text-align: center;
+	background: white;
+	padding: 4em 0 4em 0;
+}
+
+.band.sub {
+	background: $colour-bg-pale;
+	padding: 4em 0 4em 0;
+}
+
+.band.promo {
+	background: $colour-bg-pale;
+	border-bottom: 1px solid darken($colour-bg-pale, 10%);
+	padding: 3em 0 2em 0;
+}
+
+.button {
+	@include font-size(1.8);
+	font-weight: bold;
+	text-decoration: none;
+	background: $colour-highlight;
+	border-radius: .2em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	width: 100%;
+	padding: 0;
+	line-height: 5em;
+	height: 5em;
+	display: inline-block;
+	position: relative;	
+	margin: 1em 0 0;
+	overflow: hidden;
+	
+	-webkit-transition: all 0.1s ease-out; 
+	-moz-transition: all 0.1s ease-out; 
+	-o-transition: all 0.1s ease-out; 
+	transition: all 0.1s ease-out; 
+	
+	span {
+		display: block;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		right: 0;
+	
+	-webkit-transition: all 0.1s ease-out; 
+	-moz-transition: all 0.1s ease-out; 
+	-o-transition: all 0.1s ease-out; 
+	transition: all 0.1s ease-out; 
+	}	
+	
+	&:after {
+		font-family: 'any-old-icon';
+		content: "\e001";
+		font-weight: normal;
+		display: block;
+		position: absolute;
+		top: -200%;
+		width: 100%;
+		right: 0;
+		@include font-size(6.8);
+	
+	-webkit-transition: all 0.1s ease-out; 
+	-moz-transition: all 0.1s ease-out; 
+	-o-transition: all 0.1s ease-out; 
+	transition: all 0.1s ease-out; 	
+			
+	}
+	
+	&:hover {
+		background: $colour-detail;
+		
+		&:after {
+			top: 0%;
+		}
+		
+		span {
+			top: 100%;
+		}	
+				
+	}
+	
+}
+
+@media only screen and (min-width: 30em) {
+	
+	.button {
+		width: auto;
+		padding: 0 10em;
+	}
+	
+}
+
+.box1 {
+	width: 100%;
+	display: block;
+	padding: 1.5em;
+	color: darken($txt-main, 30%);
+	background: darken($colour-bg-pale, 10%);
+	border: 1px solid $colour-bg-pale;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	
+	-webkit-transition: all 0.05s ease-out; 
+	-moz-transition: all 0.05s ease-out; 
+	-o-transition: all 0.04s ease-out; 
+	transition: all 0.05s ease-out; 
+          
+	
+	&:hover {
+		background: white;
+		
+		span {
+			color: $colour-detail;
+		}
+	}
+	
+	span {
+		@include font-size(4);
+		line-height: 0em;
+		position: relative;
+		top: 0.25em;
+		font-weight: normal;
+		margin: 0 .5em 0 0;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+
+	body {
+		@include font-size(1.6);
+	}
+	
+	.box1 {
+		width: 50%;
+		border-width: .2em;
+	
+	}	
+	
+}
+
+@media only screen and (min-width: 60em) {
+	
+	.box1 {
+		width: 33%;
+	
+	}	
+	
+}
+
+.slide { 
+
+	text-align: center;
+
+	h2 {
+		font-family: "any-old-icon";
+		margin: 0;
+		@include font-size(26);
+		font-weight: normal;
+		line-height: 1em;
+		margin: .1em 0;
+	}
+}
+
+footer {
+	color: lighten($txt-main, 40%);
+	
+	h3 {
+		text-align: left;
+	}
+	
+	p {
+		line-height: 1.5em;
+		
+		span {
+			@include font-size(10);
+			color: $txt-main;
+			padding: 0 0 .3em 0;
+			display: block;
+			text-align: center;
+			
+			&:hover {
+				color: lighten($txt-main, 20%);
+			}
+		}
+		
+	}
+	
+	a {
+		color: $colour-detail;
+	}
+	
+}

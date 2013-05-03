@@ -1,0 +1,83 @@
+/*basics*/
+
+input:focus {
+    outline: none;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+form {
+	p {
+		margin: 0;
+	}
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+	width: 100%;
+	line-height: 2.5em;
+	height: 2.5em;
+	padding: 0 .5em;
+	margin: .5em 0 1.5em 0;
+	border: 1px solid darken($colour-detail, 10%);
+	border-bottom-width: 2px;
+	border-radius: .1em;
+}
+
+textarea {
+	width: 100%;
+	padding: .5em;
+	margin: .5em 0 1.5em 0;
+	height: 10em;
+	border: 1px solid darken($colour-detail, 10%);
+	border-bottom-width: 2px;
+	border-radius: .1em;
+}
+
+.submit-container {
+	text-align: center;
+}
+
+/*validation*/
+form label.error {
+	pointer-events: none;
+	font-size: 0.875em;
+	float: right;
+	color: tomato;
+	position: relative;
+	top: -3.8em;
+	right: 1em;
+}
+
+form input.error {
+	border-color: tomato;
+}
+
+/*extras*/
+
+::-webkit-input-placeholder {
+	color: lighten($txt-main, 30%);
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: lighten($txt-main, 30%);
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: lighten($txt-main, 30%);
+	font-style: italic;
+}
+
+:-ms-input-placeholder {  
+	color: lighten($txt-main, 30%); 
+	font-style: italic;
+}	
+
