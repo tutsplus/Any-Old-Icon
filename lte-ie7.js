@@ -58,7 +58,20 @@ window.onload = function() {
 			'darren-reay-telephone-box' : '&#xe031;',
 			'darren-reay-pen-nib' : '&#xe032;',
 			'arno-hattingh-park' : '&#xe033;',
-			'anton-boshoff-headset' : '&#xe034;'
+			'anton-boshoff-headset' : '&#xe034;',
+			'joshua-barker-landscape' : '&#xe035;',
+			'joshua-barker-house' : '&#xe036;',
+			'jory-raphael-cart' : '&#xe037;',
+			'johan-manuel-hernandez-record-player' : '&#xe038;',
+			'danis-lou-joystick' : '&#xe039;',
+			'christina-pedersen-walkman' : '&#xe03a;',
+			'christina-pedersen-cassette' : '&#xe03b;',
+			'chris-spittles-unpinned' : '&#xe03c;',
+			'chris-spittles-save' : '&#xe03d;',
+			'chris-spittles-pinned' : '&#xe03e;',
+			'chris-spittles-health' : '&#xe03f;',
+			'chris-spittles-geo-location' : '&#xe040;',
+			'cesgra-globe' : '&#xe041;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="your-class-prefix"] {
 */
-.pavitra-s-tandon-only-goodness, .ian-yates-y-fronts, .pavitra-s-tandon-chat-for-lovers, .muhamad-bahrul-ulum-log-out, .muhamad-bahrul-ulum-log-in, .justin-skull-ribbon, .justin-burns-skull, .justin-burns-skull-badge, .designmodo-settings, .designmodo-location, .designmodo-like, .cole-townsend-pencil, .cole-townsend-check, .cole-townsend-chat, .ian-yates-porridge, .ian-yates-mr-whippy, .ian-yates-milk, .aleks-dorohovich-rocket, .vincent-gschwindemann-sun, .vectortuts-pirate-panda, .sanjit-saha-afro, .samuel-sosina-command-line, .quin-robinson-casual-shoe, .michael-howarth-tardis, .kenneth-bielinski-timer, .juan-ortiz-zaforas-plug-f-female, .juan-ortiz-zaforas-plug-c-female, .juan-gomez-alzaga-rocking-horse, .juan-gomez-alzaga-paint-brush, .juan-gomez-alzaga-leaf, .juan-gomez-alzaga-bird, .jeffrey-herrera-beer-mug, .jack-rugile-anchor, .ilias-ismanalijev-batman, .corinne-ducusin-doumbek, .aleks-dorohovich-triforce, .steve-debeus-farm, .patrik-larsson-pokemon, .patrik-larsson-pakman, .ordog-zoltan-canon, .johana-barretto-kitty, .johana-barretto-kitty-stripy, .jj-moi-manga-poison, .jj-moi-manga-eye, .jj-moi-kneel, .dom-waters-speedo, .dom-waters-knife, .derek-mui-tie, .derek-mui-invader, .darren-reay-telephone-box, .darren-reay-pen-nib, .arno-hattingh-park, .anton-boshoff-headset {
+.pavitra-s-tandon-only-goodness, .ian-yates-y-fronts, .pavitra-s-tandon-chat-for-lovers, .muhamad-bahrul-ulum-log-out, .muhamad-bahrul-ulum-log-in, .justin-skull-ribbon, .justin-burns-skull, .justin-burns-skull-badge, .designmodo-settings, .designmodo-location, .designmodo-like, .cole-townsend-pencil, .cole-townsend-check, .cole-townsend-chat, .ian-yates-porridge, .ian-yates-mr-whippy, .ian-yates-milk, .aleks-dorohovich-rocket, .vincent-gschwindemann-sun, .vectortuts-pirate-panda, .sanjit-saha-afro, .samuel-sosina-command-line, .quin-robinson-casual-shoe, .michael-howarth-tardis, .kenneth-bielinski-timer, .juan-ortiz-zaforas-plug-f-female, .juan-ortiz-zaforas-plug-c-female, .juan-gomez-alzaga-rocking-horse, .juan-gomez-alzaga-paint-brush, .juan-gomez-alzaga-leaf, .juan-gomez-alzaga-bird, .jeffrey-herrera-beer-mug, .jack-rugile-anchor, .ilias-ismanalijev-batman, .corinne-ducusin-doumbek, .aleks-dorohovich-triforce, .steve-debeus-farm, .patrik-larsson-pokemon, .patrik-larsson-pakman, .ordog-zoltan-canon, .johana-barretto-kitty, .johana-barretto-kitty-stripy, .jj-moi-manga-poison, .jj-moi-manga-eye, .jj-moi-kneel, .dom-waters-speedo, .dom-waters-knife, .derek-mui-tie, .derek-mui-invader, .darren-reay-telephone-box, .darren-reay-pen-nib, .arno-hattingh-park, .anton-boshoff-headset, .joshua-barker-landscape, .joshua-barker-house, .jory-raphael-cart, .johan-manuel-hernandez-record-player, .danis-lou-joystick, .christina-pedersen-walkman, .christina-pedersen-cassette, .chris-spittles-unpinned, .chris-spittles-save, .chris-spittles-pinned, .chris-spittles-health, .chris-spittles-geo-location, .cesgra-globe {
 	font-family: 'any-old-icon';
 	speak: none;
 	font-style: normal;
@@ -195,4 +195,43 @@ you can use the generic selector below, but it's slower:
 }
 .anton-boshoff-headset:before {
 	content: "\e034";
+}
+.joshua-barker-landscape:before {
+	content: "\e035";
+}
+.joshua-barker-house:before {
+	content: "\e036";
+}
+.jory-raphael-cart:before {
+	content: "\e037";
+}
+.johan-manuel-hernandez-record-player:before {
+	content: "\e038";
+}
+.danis-lou-joystick:before {
+	content: "\e039";
+}
+.christina-pedersen-walkman:before {
+	content: "\e03a";
+}
+.christina-pedersen-cassette:before {
+	content: "\e03b";
+}
+.chris-spittles-unpinned:before {
+	content: "\e03c";
+}
+.chris-spittles-save:before {
+	content: "\e03d";
+}
+.chris-spittles-pinned:before {
+	content: "\e03e";
+}
+.chris-spittles-health:before {
+	content: "\e03f";
+}
+.chris-spittles-geo-location:before {
+	content: "\e040";
+}
+.cesgra-globe:before {
+	content: "\e041";
 }
