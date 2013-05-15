@@ -71,7 +71,9 @@ window.onload = function() {
 			'chris-spittles-pinned' : '&#xe03e;',
 			'chris-spittles-health' : '&#xe03f;',
 			'chris-spittles-geo-location' : '&#xe040;',
-			'cesgra-globe' : '&#xe041;'
+			'cesgra-globe' : '&#xe041;',
+			'matt-hakes-spectacles' : '&#xe042;',
+			'matt-hakes-moustache' : '&#xe043;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
