@@ -974,7 +974,7 @@ ul {
 .band.promo {
   background: #ecedf1;
   border-bottom: 1px solid #cfd1db;
-  padding: 3em 0 2em 0; }
+  padding: 3em 0 3em 0; }
 
 .button {
   font-size: 18px;
@@ -1095,15 +1095,17 @@ footer {
   color: #f6f5f5; }
   footer h3 {
     text-align: left; }
+  footer p.copy {
+    width: 100%;
+    text-align: center; }
   footer p {
     line-height: 1.5em; }
     footer p span {
-      font-size: 100px;
-      font-size: 10rem;
+      font-size: 80px;
+      font-size: 8rem;
       color: #908f8f;
       padding: 0 0 0.3em 0;
-      display: block;
-      text-align: center; }
+      display: inline-block; }
       footer p span:hover {
         color: #c3c2c2; }
   footer a {
