@@ -547,8 +547,8 @@ h1 {
   font-family: "Bree Serif", serif;
   font-weight: normal;
   color: #393939;
-  font-size: 72px;
-  font-size: 7.2rem;
+  font-size: 92px;
+  font-size: 9.2rem;
   line-height: 1em;
   margin: 0 0 0.75em 0; }
 
@@ -968,13 +968,15 @@ ul {
   padding: 4em 0 4em 0; }
 
 .band.sub {
-  background: #ecedf1;
-  padding: 4em 0 4em 0; }
+  background: #ecedf1; }
 
 .band.promo {
   background: #ecedf1;
   border-bottom: 1px solid #cfd1db;
   padding: 3em 0 3em 0; }
+
+.band.comments {
+  background: #383a3c; }
 
 .button {
   font-size: 18px;
