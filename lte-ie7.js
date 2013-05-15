@@ -73,7 +73,8 @@ window.onload = function() {
 			'chris-spittles-geo-location' : '&#xe040;',
 			'cesgra-globe' : '&#xe041;',
 			'matt-hakes-spectacles' : '&#xe042;',
-			'matt-hakes-moustache' : '&#xe043;'
+			'matt-hakes-moustache' : '&#xe043;',
+			'ian-yates-creative-commons' : '&#xe044;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
