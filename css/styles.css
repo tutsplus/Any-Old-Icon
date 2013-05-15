@@ -547,11 +547,15 @@ h1 {
   font-family: "Bree Serif", serif;
   font-weight: normal;
   color: #393939;
-  font-size: 92px;
-  font-size: 9.2rem;
+  font-size: 52px;
+  font-size: 5.2rem;
   line-height: 1em;
   margin: 0 0 0.75em 0; }
 
+@media only screen and (min-width: 40em) {
+  h1 {
+    font-size: 92px;
+    font-size: 9.2rem; } }
 h3 {
   font-family: "Bree Serif", serif;
   text-align: center;
@@ -1032,7 +1036,7 @@ ul {
     .button:hover span {
       top: 100%; }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 40em) {
   .button {
     width: auto;
     padding: 0 10em; } }
